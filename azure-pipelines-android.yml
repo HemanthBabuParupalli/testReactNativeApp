@@ -29,7 +29,7 @@ steps:
 - task: AndroidSigning@3
   inputs:
     apkFiles: '**/*.apk'
-    apksignerKeystoreFile: 'my-upload-key.keystore'
+    apksignerKeystoreFile: 'obixMobility.keystore'
     apksignerKeystorePassword: '$(KeyStorePassword)'
     apksignerKeystoreAlias: '$(KeyAlias)'
     apksignerKeyPassword: '$(KeyPassword)'
